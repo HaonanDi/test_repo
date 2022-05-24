@@ -10,4 +10,11 @@ import statsmodels as sm
 import seaborn as sns
 from matplotlib import pyplot as plt
 
+x = [1,2,3,4,5,6,7]
+y = [0.2,0.3,0.4,0.5,0.2,0.6,0.2]
+
+plt.plot(x, y)
+# plt.show()
+
+
 print('All packages are loaded correctly')
